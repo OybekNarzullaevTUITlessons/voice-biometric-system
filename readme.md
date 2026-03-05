@@ -19,14 +19,14 @@ Bu loyiha biometrik tizimlar fani uchun ishlab chiqilgan.
 
 Virtual environment yaratish:
 
-```shell
+```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
 
 Paketlarni o'rnatish:
 
-```shell
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## 📷 1. Dataset yig'ish
 
-```shell
+```bash
 python ./src/dataset_collector.py
 ```
 
@@ -47,7 +47,7 @@ dataset/ ali/ vali/
 
 ## 🧠 2. Training
 
-```shell
+```bash
 python ./src/train_model.py
 ```
 
@@ -59,6 +59,6 @@ Natijalar:
 
 ## 🎯 Tekshirish
 
-```shell
+```bash
 python main.py
 ```
